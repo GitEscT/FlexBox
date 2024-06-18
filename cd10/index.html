@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+    <style>
+    body {
+      margin: 5;
+    }
+    .barra-de-menu {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      background-color: #ffd4d6;
+      color: #fff;
+    }
+    .barra-de-menu .logo img {
+      height: 150px;
+    }
+    .barra-de-menu .menu {
+      display: flex;
+      gap: 20px;
+    }
+    .barra-de-menu .menu .item-menu a {
+      color: #ac2c44;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="barra-de-menu">
+    <div class="logo">
+      <img src="logo.png" alt="Coruja">
+    </div>
+    <div class="menu">
+      <div class="item-menu"><a href="#">Ler</a></div>
+      <div class="item-menu"><a href="#">Contato</a></div>
+      <div class="item-menu"><a href="#">Fotos</a></div>
+      <div class="item-menu"><a href="#">Saiba Mais</a></div>
+    </div>
+  </div>
+
+  
+</body>
+</html>
